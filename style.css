@@ -5,11 +5,23 @@
 }
 body{
     /* //background: black; */
-    
+    min-height: 100vh;
+    border: solid 10px red;
+}
+
+header{
+    padding: 30px;
 }
 
 .top{
-    text-align: center  ;
+    text-align: center;
+}
+.top h1{
+    margin-top: 2%;
+}
+.foto{
+    height: 150px;
+    border-radius: 50px;
 }
 
 .tema{
@@ -21,6 +33,8 @@ body{
 a{
     color: black;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .detalhe {
 
@@ -31,6 +45,19 @@ section{
     justify-content: space-around;
     margin: 20px;
     padding: 10px;
+}
+
+.proje{
+}
+
+.pro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pre{
+    display: flex;
+    justify-content: space-around;
 }
 
 main{
