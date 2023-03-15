@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    /* //background: black; */
+    //background: black; 
     min-height: 100vh;
     border: solid 10px red;
 }
@@ -36,9 +36,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.detalhe {
 
-}
 
 section{
     display: flex;
@@ -47,8 +45,6 @@ section{
     padding: 10px;
 }
 
-.proje{
-}
 
 .pro{
     display: flex;
@@ -68,6 +64,21 @@ main{
 
 .alt{
     border: solid 2px black;
+    padding: 0;
+    text-align: center;
+}
+
+.linguagem{
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    
+}
+
+.fa-brands{
+    font-size: 100px;
+    padding: 30PX;
+    color: whitesmoke;
 }
 
 footer{
