@@ -5,7 +5,11 @@
 }
 body{
     min-height: 100vh;
-    
+    min-width: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+}
+.conteiner{
+    padding: 0px, 50px;
 }
 
 header{
@@ -15,9 +19,11 @@ header{
 .top{
     text-align: center;
 }
+
 .top h1{
     margin-top: 2%;
 }
+
 .foto{
     height: 150px;
     border-radius: 50px;
@@ -25,17 +31,23 @@ header{
 
 .tema{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 10px;
     padding: 10px;
+    margin-top: 5%;
 }
+
 a{
     color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 25px;
 }
 
+a h1{
+    border: solid black;
+    padding: 10px;
+
+    
+}
 
 section{
     display: flex;
@@ -58,6 +70,10 @@ section{
 main{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 6%;
+}
+main h1{
+    padding: 15px;
 }
 
 
@@ -80,9 +96,31 @@ main{
     
 }
 
+.fa-js{
+    color: yellow;
+}
+
+.fa-css3-alt{
+    color: rgb(49, 49, 243);
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-python{
+    color: #0e76a8;
+}
+
+.fa-node{
+    color: grey;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
+    margin-top: 9%;
+    padding: 30px;
 }
 .fa-solid{
     font-size: 100px;
@@ -92,6 +130,20 @@ footer{
 .icones{
     text-align: center;
 }
+
 .fa-linkedin{
-    margin: 0px;
-}''
+  color: #0e76a8;
+  font-size: 60px;
+  padding: 0%;
+}
+
+.fa-github{
+    padding: 0%;
+    font-size: 60px;
+    color: white;
+}
+
+.fa-envelope{
+    color: rgb(145, 37, 37);
+    font-size: 60px;
+}
