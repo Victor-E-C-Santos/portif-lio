@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    //background: black; 
     min-height: 100vh;
-    border: solid 10px red;
+    
 }
 
 header{
@@ -71,17 +70,28 @@ main{
 .linguagem{
     display: flex;
     justify-content: space-evenly;
-    background: black;
+    
     
 }
 
 .fa-brands{
     font-size: 100px;
     padding: 30PX;
-    color: whitesmoke;
+    
 }
 
 footer{
     display: flex;
     justify-content: space-around;
 }
+.fa-solid{
+    font-size: 100px;
+    color: black;
+}
+
+.icones{
+    text-align: center;
+}
+.fa-linkedin{
+    margin: 0px;
+}''
